@@ -33,11 +33,14 @@ body{
 
 a{
     text-decoration: none;
-    color: lightslategray;
 }
 
 li{
     list-style-type: none;
+}
+
+.center{
+    text-align: center;
 }
 
 /* regole header */
@@ -149,14 +152,10 @@ main{
     padding-bottom: 40px;
 }
 
-
-
 .cl-fatturazione{
     height: 700px;
-    width: calc(95%/3);
+    width: calc(90%/3);
 
-    /* DEBUG */
-    background-color: brown
 }
 
 .cl-fatturazione-team{
@@ -164,6 +163,37 @@ main{
 
     /* DEBUG */
     background-color: black;
+}
+
+.fatturazione-type{
+    border-top: solid 1px lightslategray;
+    border-right: solid 1px lightslategray;
+    border-left: solid 1px lightslategray;
+    text-align: center;
+}
+
+.fatturazione-caratteristiche{
+    border: solid 1px lightslategray;
+    height: 500px;
+    padding: 20px;
+}
+
+.fatturazione-name{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.price{
+    padding-bottom: 20px;
+}
+
+.grey{
+    color: lightslategray;
+    margin-top: 10px;
+}
+
+.padding-table{
+    padding-bottom: 20px;
 }
 
 #pr-image{
