@@ -1,11 +1,96 @@
+/* regole generali */
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* regole generali body */
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
 }
 
+
+
+/* regole header */
+    .conteiner-header{
+        height: 60px;
+        width: 100%;
+        z-index: 500;
+        position: fixed;
+
+        /* DEBUG */
+        background-color: red;
+    }
+    .conteiner-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #nav-sx{
+        width: 50%;
+        height: 100%;
+        /* DEBUG */
+        background-color: green;
+    }
+
+    #nav-dx{
+        width: 50%;
+        height: 100%;
+        /* DEBUG */
+        background-color: black;
+    }
+
+    #jumbotron{
+        background-color: lightblue;
+        padding-top: 60px;
+
+        /* DEBUG */
+        min-height: 600px;
+        width: 100%;
+    }
+
+    .conteiner-big{
+        width: 90%;
+        margin: 50px auto;
+    }
+
+    #title{
+        height: 150px;
+        width: 100%;
+
+        /* DEBUG */
+        background-color:  violet;
+    }
+
+    .paragrafo{
+        width: 30%;
+
+        /* DEBUG */
+        min-height: 250px;
+        background-color: brown;
+    }
+
+    .image{
+        width: 70%;
+
+        /* DEBUG */
+        min-height: 250px;
+        background-color: yellow;
+    }
+
+
+/* regole generali main */
+
+
+/* regole main */
+
+
+/* regole generali footer */
+
+
+/* regole footer */
