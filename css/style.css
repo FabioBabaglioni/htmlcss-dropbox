@@ -211,5 +211,35 @@ background-color: aqua;
 
 /* regole generali footer */
 
+footer{
+    background-color: black;
+    color: white;
+    
+    /* DEBIUG */
+    min-height: 500px;
+}
 
 /* regole footer */
+
+.cl-footer{
+    width: calc(100%/5);
+
+    /* DEBUG */
+    background-color: red;
+    border: solid 1px white;
+    min-height: 200px;
+}
+
+.margin{
+    padding-top: 80px;
+}
+
+.language{
+    width: 200px;
+    height: 70px;
+
+    /* DEBUG */
+    margin-top: 70px;
+    background-color: red;
+}
+
