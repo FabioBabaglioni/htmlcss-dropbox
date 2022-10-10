@@ -10,14 +10,35 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .bg-lightblue{
     background-color: lightblue;
 }
 
+.bg-white{
+    background-color: white;
+}
 
+.bg-blue{
+    background-color: blue
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+a{
+    text-decoration: none;
+    color: lightslategray;
+}
+
+li{
+    list-style-type: none;
+}
 
 /* regole header */
     .conteiner-header{
@@ -25,10 +46,8 @@ body{
         width: 100%;
         z-index: 500;
         position: fixed;
-
-        /* DEBUG */
-        background-color: red;
     }
+
     .conteiner-flex{
         display: flex;
         justify-content: space-between;
@@ -38,53 +57,73 @@ body{
     #nav-sx{
         width: 50%;
         height: 100%;
-        /* DEBUG */
-        background-color: green;
+        color: lightgrey;
+    }
+
+    #logo-small{
+        height: 20px;
+        margin-top: 2px;
+    }
+
+    .change-display{
+        display: inline-block;
+        margin: 10px;
+        color: lightgrey;
     }
 
     #nav-dx{
         width: 50%;
         height: 100%;
-        /* DEBUG */
-        background-color: black;
+        text-align: right;
     }
 
-    #jumbotron{
-    
-        padding-top: 60px;
+    .button{
+        padding: 5px;
+        color: white;
+    }
 
-        /* DEBUG */
-        min-height: 600px;
-        width: 100%;
+
+
+    #jumbotron{
+        height: 710px;
+        padding-top: 60px;
     }
 
     .conteiner-big{
-        width: 90%;
+        width: 70%;
         margin: 50px auto;
     }
 
     #main-title{
-        height: 150px;
-        width: 100%;
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
 
-        /* DEBUG */
-        background-color:  violet;
+    .jumbotron-sx{
+        width: 40%;
     }
 
     .paragrafo{
-        width: 30%;
+        margin-bottom: 20px;
+    }
 
-        /* DEBUG */
-        min-height: 250px;
-        background-color: brown;
+    .annulla{
+        margin-top: 20px;
+        margin-bottom: 50px;
     }
 
     #jb-image{
-        width: 70%;
+         height: 420px;
+         width: auto;
+    }
 
-        /* DEBUG */
-        min-height: 250px;
-        background-color: yellow;
+    .jumbotron-dx{
+        width: 60%; 
+    }
+
+    .fa-arrow-down{
+        font-size: 70px;
+        margin-top: 35px;
     }
 
 
@@ -102,20 +141,15 @@ main{
 }
 
 .section-title{
-    width: 100%;
-
-    /* DEBUG */
-    min-height: 70px;
-    background-color: blue;
+    font-size: 30px;
+    padding: 40px 40px 40px 0;
 }
 
 #fatturazione{
-
-
-/* DEBUG */
-min-height: 30px;
-background-color: aqua;
+    padding-bottom: 40px;
 }
+
+
 
 .cl-fatturazione{
     height: 700px;
@@ -159,12 +193,6 @@ background-color: aqua;
     margin-top: 10px;
 }
 
-.flex{
-    display: flex;
-    justify-content: space-between;
-    /* DEBUG */
-    
-}
 
 .cl-members{
     width: calc(100%/3);
@@ -192,7 +220,7 @@ background-color: aqua;
     background-color: blue;
 }
 
-.button{
+.buttons{
     width: 30%;
 
     /* DEBUG */
