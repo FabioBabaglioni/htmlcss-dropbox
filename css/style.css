@@ -25,10 +25,17 @@ body{
     background-color: blue
 }
 
+.mb-2{
+    margin-bottom: 20px;
+}
+
+.mr-1{
+    margin-right: 10px;
+}
+
 .flex{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
 
 a{
@@ -44,11 +51,16 @@ li{
 }
 
 /* regole header */
+
+header a{
+    color: lightslategray;
+}
     .conteiner-header{
         height: 60px;
         width: 100%;
         z-index: 500;
         position: fixed;
+        border-bottom: solid 1px lightslategray;
     }
 
     .conteiner-flex{
@@ -83,6 +95,7 @@ li{
     .button{
         padding: 5px;
         color: white;
+        display: inline-block;
     }
 
 
@@ -153,12 +166,12 @@ main{
 }
 
 .cl-fatturazione{
-    height: 700px;
     width: calc(90%/3);
 
 }
 
 .cl-fatturazione-team{
+    margin-top: 40px ;
     height: 350px;
 
     /* DEBUG */
@@ -174,7 +187,7 @@ main{
 
 .fatturazione-caratteristiche{
     border: solid 1px lightslategray;
-    height: 500px;
+ 
     padding: 20px;
 }
 
