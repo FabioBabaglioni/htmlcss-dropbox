@@ -37,6 +37,10 @@ body{
     color: blue;
 }
 
+.col-f{
+    color: fuchsia;
+}
+
 .mb-1{
     margin-bottom: 10px;
 }
@@ -347,18 +351,10 @@ main{
 
 .bs-title{
     width: 70%;
-
-    /* DEBUG */
-    min-height: 150px;
-    background-color: blue;
 }
 
 .buttons{
     width: 30%;
-
-    /* DEBUG */
-    min-height: 150px;
-    background-color: yellow;
 }
 
 .scritte{
