@@ -194,7 +194,7 @@ main{
 }
 
 .section-title{
-    font-size: 30px;
+    font-size: 40px;
     padding: 40px 40px 40px 0;
 }
 
@@ -265,21 +265,49 @@ main{
 
 .cl-members{
     width: calc(100%/3);
+    background-color: #f5f5f5;
     /* DEBUG */
     min-height: 600px;
-    background-color: brown;
-    border: solid 1px black
 }
 
 .logo-members{
     width: 50%;
-
-    /* DEBUG */
-    min-height: 300px;
-    background-color: yellow;
-    border: solid 1px black;
-
+    height: 300px;
 }
+
+.logo-members-sx-top-sx{
+    background-color: #a2d39b;
+}
+
+.logo-members-sx-top-dx{
+    background-color: #61082b;
+}
+
+.logo-members-sx-bottom-sx{
+    background-color: #0093ce;
+}
+
+.logo-members-sx-bottom-dx{
+    background-color: #ff1c1c;
+}
+
+.logo-members-dx-top-sx{
+    background-color: #d5001f;
+}
+
+.logo-members-dx-top-dx{
+    background-color: #b4d0e7;
+}
+
+.logo-members-dx-bottom-sx{
+    background-color: #0d2481;
+}
+
+.logo-members-dx-bottom-dx{
+    background-color: #ffd830;
+}
+
+
 
 .bs-title{
     width: 70%;
