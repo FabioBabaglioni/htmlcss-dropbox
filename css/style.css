@@ -14,7 +14,7 @@ body{
 }
 
 .bg-lightblue{
-    background-color: lightblue;
+    background-color: #b4d0e7;
 }
 
 .bg-white{
@@ -38,7 +38,11 @@ body{
 }
 
 .col-f{
-    color: fuchsia;
+    color: #61082b;
+}
+
+.col-black{
+    color: black;
 }
 
 .mb-1{
@@ -84,11 +88,10 @@ body{
 .flex{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
 }
 
-.strech{
-    align-items:stretch;
+.stretch{
+    align-items: stretch;
 }
 
 .al-center{
@@ -125,7 +128,7 @@ li{
 }
 
 .scroll{
-    overflow-y:auto ;
+    overflow-y: auto ;
 }
 
 /* regole header */
@@ -220,7 +223,6 @@ main{
 
 .cl-fatturazione{
     width: calc(90%/3);
-    height: 1000px;
 }
 
 .bord-grey{
@@ -228,12 +230,12 @@ main{
 }
 
 .fatturazione-type{
-    border-bottom: 0px;
     text-align: center;
 }
 
 .fatturazione-caratteristiche{
     padding: 20px;
+    height: 800px;
 }
 
 .hr-small{
@@ -287,7 +289,6 @@ main{
 .cl-members{
     width: calc(100%/3);
     background-color: #f5f5f5;
-    
 }
 
 .logo-members{
@@ -298,19 +299,11 @@ main{
 
 
 .img-logo-small{
-    height: 30px;
-}
-
-.img-logo-medium{
-    height: 50px;
-}
-
-.img-logo-big{
-    height: 100px;
+    width: 65%;
 }
 
 #img-spiegazione{
-    height: 100px;
+    height: 25%;
 }
 
 #hr-medium{
@@ -359,8 +352,6 @@ main{
 .logo-members-dx-bottom-dx{
     background-color: #ffd830;
 }
-
-
 
 .bs-title{
     width: 70%;
