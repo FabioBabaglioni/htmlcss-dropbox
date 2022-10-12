@@ -61,6 +61,10 @@ body{
     margin-right: 10px;
 }
 
+.mt-5{
+    margin-top: 50px;
+}
+
 .pab-4{
     padding-bottom: 40px;
 }
@@ -81,6 +85,10 @@ body{
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
+}
+
+.strech{
+    align-items:stretch;
 }
 
 .al-center{
@@ -114,6 +122,10 @@ li{
 
 .font-30{
     font-size: 30px;
+}
+
+.scroll{
+    overflow-y:auto ;
 }
 
 /* regole header */
@@ -198,7 +210,7 @@ main{
 /* regole main */
 .conteiner-small{
     width: 70%;
-    margin: 50px auto;
+    margin: 70px auto;
 }
 
 .section-title{
@@ -208,6 +220,7 @@ main{
 
 .cl-fatturazione{
     width: calc(90%/3);
+    height: 1000px;
 }
 
 .bord-grey{
@@ -364,7 +377,7 @@ footer{
     background-color: black;
     color: white;
     
-    /* DEBIUG */
+    /* DEBUG */
     min-height: 500px;
 }
 
@@ -373,10 +386,6 @@ footer{
 .cl-footer{
     width: calc(100%/5);
 
-    /* DEBUG */
-    background-color: red;
-    border: solid 1px white;
-    min-height: 200px;
 }
 
 .margin{
@@ -384,11 +393,6 @@ footer{
 }
 
 .language{
-    width: 200px;
-    height: 70px;
-
-    /* DEBUG */
     margin-top: 70px;
-    background-color: red;
 }
 
