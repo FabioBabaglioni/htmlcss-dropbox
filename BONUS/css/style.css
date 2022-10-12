@@ -161,6 +161,15 @@ header a{
         color: lightgrey;
     }
 
+    .drop{
+        border-bottom: solid 1px black;
+    }
+
+    .change-display:hover .drop{
+        cursor: pointer;
+        display: inline;
+    }
+
     #nav-dx{
         width: 50%;
         height: 100%;
@@ -359,6 +368,15 @@ main{
 
 .buttons{
     width: 30%;
+}
+
+.answer{
+    display: none;
+}
+
+.question:hover .answer{
+    cursor: pointer;
+    display: block;
 }
 
 
